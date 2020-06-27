@@ -19,17 +19,17 @@ class Fenrir extends Component {
   render() {
     return (
       <div>
-        <Navbar className='bg-default'>
+        <Navbar className='bg-dark'>
           <NavbarBrand href='/'>
             <Media src={NAV_BRAND_LOGO} height={30} alt='Saturn Network Logo' className='d-inline-block align-top' />
           </NavbarBrand>
 
-          <NavLink href='https://github.com/saturn-network/'><FontAwesomeIcon icon={faGithub} size='lg' color='#fff' /></NavLink>
+          <NavLink href='https://github.com/FluxWallet/'><FontAwesomeIcon icon={faGithub} size='lg' color='#fff' /></NavLink>
         </Navbar>
 
         <Container>
           <div className="col-xl-12 col-lg-12 col-md-12 text-center mt-5">
-            <h2 className="page-title">{ MAIN_TITLE }</h2>
+            <h2 className="page-title text-white">{ MAIN_TITLE }</h2>
             <p className="large">{ MAIN_TEXT }</p>
           </div>
 

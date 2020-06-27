@@ -1,26 +1,26 @@
 // Token Info
 // ===============================================================
-export const TOKEN_ADDRESS  = "0xac55641cbb734bdf6510d1bbd62e240c2409040f"
+export const TOKEN_ADDRESS  = "0xf71c38cb53478b2aa7b06f1116b8b7121df2ded4"
 export const TOKEN_NETWORK  = "ETC"
-export const TOKEN_NAME     = "Saturn DAO Token"
-export const TOKEN_SYMBOL   = "STRN"
-export const TOKEN_DECIMALS = 4
-export const TOKEN_STANDARD = "ERC223"
+export const TOKEN_NAME     = "FluxWallet Token"
+export const TOKEN_SYMBOL   = "FWT"
+export const TOKEN_DECIMALS = 18
+export const TOKEN_STANDARD = "ERC20"
 export const TOKEN_LOGO     = "token-logo.png"
 
 
 // Header / Navigation
 // ===============================================================
 export const NAV_BRAND_LOGO = "logo-nav.png"
-export const NAV_BRAND      = "Saturn Network"
-export const MAIN_TITLE     = "Instant Swaps and Secure Trading"
-export const MAIN_TEXT      = "Saturn Network is a DEX protocol that enables direct wallet to wallet exchanges, powering easy and secure token trading for any Ethereum asset."
+export const NAV_BRAND      = "FluxWallet"
+export const MAIN_TITLE     = "FluxWallet.me Saturn Ring"
+export const MAIN_TEXT      = "Trade FWT and ETC via this customised Saturn Ring!"
 
 
 // Trading Competition / Leaderboard
 // ===============================================================
 // Use https://www.unixtimestamp.com/index.php or similar to set up Competition start / end dates
-export const TRADING_COMPETITION_ENABLED    = true
+export const TRADING_COMPETITION_ENABLED    = false
 export const TRADING_COMPETITION_STRATEGY   = "mined" // bought, sold, mined
 export const TRADING_COMPETITION_START_DATE = 1590969600 // June 1
 export const TRADING_COMPETITION_END_DATE   = 1596153600 // July 31
