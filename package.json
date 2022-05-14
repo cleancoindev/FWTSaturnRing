@@ -8,7 +8,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.13.1",
     "@fortawesome/free-solid-svg-icons": "^5.13.1",
     "@fortawesome/react-fontawesome": "^0.1.11",
-    "@myetherwallet/mewconnect-web-client": "^2.1.0-RC.5",
+    "@myetherwallet/mewconnect-web-client": "^2.1.22",
     "@walletconnect/web3-provider": "^1.0.0-beta.47",
     "big.js": "^5.2.2",
     "bignumber.js": "^9.0.0",
