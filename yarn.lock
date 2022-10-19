@@ -1510,10 +1510,10 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@myetherwallet/mewconnect-web-client@^2.1.0-RC.5":
-  version "2.1.0-RC.5.3"
-  resolved "https://registry.yarnpkg.com/@myetherwallet/mewconnect-web-client/-/mewconnect-web-client-2.1.0-RC.5.3.tgz#8995950f8465d2e7959bd754d54103fa9ba19a95"
-  integrity sha512-nti8+sY8lI7Eg1bEJiyN9cdMnGVrWzQytNwPZajYHzGXkCSuR1MKBSlW/gzoMcLQq0X+5ZwompXmpTsrFFyZ1g==
+"@myetherwallet/mewconnect-web-client@^2.1.2":
+  version "2.1.22"
+  resolved "https://registry.yarnpkg.com/@myetherwallet/mewconnect-web-client/-/mewconnect-web-client-2.1.22.tgz#8d4e97f0b8157c33f282d9cf650a9630da47a91e"
+  integrity sha512-jzCili3FQIosHfe778ynkBaNSRyAGXldYBkRG2OnwKniiSG3gCpk0Sl9gsSTIOmqKu6RidEQ8mXlZeWFkiQ3sw==
   dependencies:
     bignumber.js "^9.0.0"
     browser-or-node "^1.2.1"
@@ -1530,6 +1530,7 @@
     logging "^3.2.0"
     mocha "^5.2.0"
     node-fetch "^2.6.0"
+    platform "^1.3.5"
     promise-ws "^1.0.0-1"
     qrcode "^1.4.4"
     query-string "^6.10.1"
@@ -1546,7 +1547,7 @@
     web3-core-requestmanager "1.2.4"
     web3-utils "1.2.4"
     webrtc-adapter "^6.4.3"
-    wrtc "^0.4.4"
+    wrtc "^0.4.6"
     ws "^7.2.1"
 
 "@nodelib/fs.stat@^1.1.2":
@@ -9920,6 +9921,11 @@ pkg-up@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
+platform@^1.3.5:
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/platform/-/platform-1.3.6.tgz#48b4ce983164b209c2d45a107adb31f473a6e7a7"
+  integrity sha512-fnWVljUchTro6RiCFvCXBbNhJc2NijN7oIQxbwsyL0buWJPG85v81ehlHI9fXrJsMNgTofEoWIQeClKpgxFLrg==
+
 pn@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
@@ -14522,10 +14528,10 @@ write@1.0.3:
   dependencies:
     mkdirp "^0.5.1"
 
-wrtc@^0.4.4:
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/wrtc/-/wrtc-0.4.5.tgz#6839540904bf38f13e6e3fb27ee1448e8458bbb6"
-  integrity sha512-AEqbxwz8LX9bRrSI8UTn6bFiGj8/28nguYJ0RTk1905HZwM8Rx16D1oX0FfJHWmYHEg5XhODGcVa33d9ORHFyw==
+wrtc@^0.4.6:
+  version "0.4.7"
+  resolved "https://registry.yarnpkg.com/wrtc/-/wrtc-0.4.7.tgz#c61530cd662713e50bffe64b7a78673ce070426c"
+  integrity sha512-P6Hn7VT4lfSH49HxLHcHhDq+aFf/jd9dPY7lDHeFhZ22N3858EKuwm2jmnlPzpsRGEPaoF6XwkcxY5SYnt4f/g==
   dependencies:
     node-pre-gyp "^0.13.0"
   optionalDependencies:
