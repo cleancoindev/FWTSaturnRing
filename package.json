@@ -33,7 +33,7 @@
     "react-notification-system-redux": "^2.0.1",
     "react-number-format": "^4.4.1",
     "react-redux": "^7.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.0",
     "react-scroll-section": "^2.0.0",
     "reactstrap": "^8.4.1",
     "redux": "^4.0.5",
